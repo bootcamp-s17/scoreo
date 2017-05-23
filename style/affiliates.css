@@ -13,6 +13,7 @@ h1{
   font-family: font-family: 'Asul', sans-serif;
   color: #F6B352;
 }
+/*Good for H2*/
 h2{
   font-family: 'Patrick Hand SC', cursive;
   color: #F6B352;
@@ -25,10 +26,12 @@ h4{
   font-family: 'Cinzel Decorative', cursive;
   color: #F6B352;
 }
+/*Not bad just a little to big */
 p{
   font-family: 'Carter One', cursive;
   color: #F6B352;
 }
+/*To fat*/
 li{
   font-family: 'Luckiest Guy', cursive;
   color: #F6B352;
