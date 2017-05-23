@@ -1,8 +1,8 @@
-/*resource css*/
+@import 'normalize.css';
 
 body {
 	/*background-image: url("https://www.scottcountyiowa.com/sites/default/files/places/IMG_0954.jpg");*/
-	background-image: url("../images/b64fc53354fcff4af905d525fa54d6f9.jpg");
+	background-image: url("../images/discgolf.jpg");
 	background-size: cover;
 }
 
