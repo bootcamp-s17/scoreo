@@ -31,12 +31,13 @@ td a:after {
 	content: "\00a0 | \00a0";
 	text-decoration: none;
 	display: inline-block;
+	color: #F68657;
 
 }
 
 
-}
-tr a:hover {
+
+td a:hover {
 	background-color: #F68657;
 }
 
