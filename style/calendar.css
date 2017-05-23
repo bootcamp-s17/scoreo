@@ -5,34 +5,40 @@
 /*Light blue: #D4DFE6*/
 /*Medium blue: #8EC0E4*/
 
-.container {
+.container{
 	border-style: outset;
 	background-color: black;
 	border-radius: 50px;
 	padding: 15px;
 
 	margin: auto;
-    width: 80%;
+    width: 60%;
+    length: 60%;
     text-align: center;
 
-    width:200px;
-    margin-left:auto;
-    margin-right:auto
-}
+    width:180px;
+   
+	}
 header {
 	overflow: clear;
     position: relative;
-
+    display: inline-block;
     }
+
+.container, button, h2{
+	display: inline-block;
+	}
+ 
 h2 {
 	text-align: center;
-	
-}
+	}
+
 button:hover{
+	}
+
+table {
+	display: inline-block;
 }
-button:first-child {
-      left: 0;
-    }
 
 button{
 		background-color: #F68657;
