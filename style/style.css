@@ -5,6 +5,20 @@
 /* Light blue: #D4DFE6 */
 /* Medium blue: #8EC0E4 */
 
+/* For normalize.css there are two ways to use the file.
+
+download at necolas.github.com/normalize.css/ OR
+GRAB from github at https://github.com/necolas/normalize.css/
+Then save normalize.css to your project folder
+
+                    AND THEN
+
+link to it in the HTML file ABOVE your main style sheet
+                      OR 
+import into main style sheet "@import 'normalize.css'"*/
+
+@import 'normalize.css';
+
 body {
   background-color: #383A3F;
   color: #F6B352;
