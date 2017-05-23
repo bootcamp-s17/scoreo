@@ -5,6 +5,7 @@
 /*Light blue: #D4DFE6*/
 /*Medium blue: #8EC0E4*/
 
+<<<<<<< HEAD
 .container{
 	border-style: outset;
 	background-color: black;
@@ -19,8 +20,23 @@
     width:180px;
    
 	}
+=======
+.container {
+    border-style: outset;
+    background-color: black;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 5% auto;
+    width: 80%;
+    text-align: center;
+    width: 60%;
+    height: 60%;
+    /* margin-left:auto; */
+    /* margin-right:auto; */
+}
+>>>>>>> d5944d73bee9d6c13a89d650eb4abc6db08641c2
 header {
-	overflow: clear;
+    overflow: clear;
     position: relative;
     display: inline-block;
     }
@@ -30,6 +46,7 @@ header {
 	}
  
 h2 {
+<<<<<<< HEAD
 	text-align: center;
 	}
 
@@ -39,8 +56,26 @@ button:hover{
 table {
 	display: inline-block;
 }
-
-button{
-		background-color: #F68657;
+=======
+    text-align: center;
+    display: inline-block;
 }
-	
+
+button:hover {
+
+}
+
+button:first-child {
+      left: 0;
+  }
+>>>>>>> d5944d73bee9d6c13a89d650eb4abc6db08641c2
+
+button {
+    background-color: #F68657;
+    margin: 0 25px;
+}
+    
+table {
+    width: 100%;
+    height: 82%;
+}
