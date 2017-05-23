@@ -1,0 +1,58 @@
+/* Light orange: #F6B352 */
+/* Dark orange: #F68657 */
+/* Charcoal gray: #383A3F */
+/* Black: #1F2124 */
+/* Light blue: #D4DFE6 */
+/* Medium blue: #8EC0E4 */
+
+/* For normalize.css there are two ways to use the file.
+
+download at necolas.github.com/normalize.css/ OR
+GRAB from github at https://github.com/necolas/normalize.css/
+Then save normalize.css to your project folder
+
+                    AND THEN
+
+link to it in the HTML file ABOVE your main style sheet
+                      OR 
+import into main style sheet "@import 'normalize.css'"*/
+
+@import 'normalize.css';
+
+body {
+  background-color: #383A3F;
+  color: #F6B352;
+}
+
+a {
+  color: #F68657;
+}
+
+a:active {
+ color: #F68657; 
+}
+
+a:visited {
+  color: #D4DFE6;
+}
+
+a:hover {
+  color: #D4DFE6;
+  background-color: #8EC0E4;
+}
+
+nav {
+  color: #8EC0E4;
+}
+
+nav > a {
+  text-decoration: none;
+}
+
+nav > a::after { 
+  content: " | "; 
+}
+
+nav > a:first-child {
+  color: #AF4034;
+}
