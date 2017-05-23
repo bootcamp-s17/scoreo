@@ -1,0 +1,60 @@
+body {
+  background-color: #383A3F;
+  color: #F6B352;
+}
+
+#profile{
+
+	position: relative;
+	height: 75px;
+	width: 75px;
+	border-radius: 50%;
+	border: 1px solid #F68657;
+}
+
+#profile:hover {
+
+	border: 1px solid #D4DFE6;
+}
+
+#rankBadge {
+	position: relative;
+	height: 50px;
+	width: 50px;
+}
+
+a {
+  color: #F68657;
+}
+
+a:active {
+ color: #F68657; 
+}
+
+a:visited {
+  color: #D4DFE6;
+}
+
+a:hover {
+  color: #D4DFE6;
+  background-color: #8EC0E4;
+}
+
+nav {
+  color: #8EC0E4;
+}
+
+nav > a {
+  text-decoration: none;
+}
+
+nav > a::after { 
+  content: " | "; 
+}
+
+nav > a:first-child {
+  color: #AF4034;
+}
+
+
+
