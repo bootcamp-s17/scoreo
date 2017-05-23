@@ -1,0 +1,40 @@
+/* Light orange: #F6B352 */ 
+/* Dark orange: #F68657 */
+/* Charcoal: #383A3F */
+/* Black: #1F2124 */
+/*Light blue: #D4DFE6*/
+/*Medium blue: #8EC0E4*/
+
+.container {
+	border-style: outset;
+	background-color: black;
+	border-radius: 50px;
+	padding: 15px;
+
+	margin: auto;
+    width: 80%;
+    text-align: center;
+
+    width:200px;
+    margin-left:auto;
+    margin-right:auto
+}
+header {
+	overflow: clear;
+    position: relative;
+
+    }
+h2 {
+	text-align: center;
+	
+}
+button:hover{
+}
+button:first-child {
+      left: 0;
+    }
+
+button{
+		background-color: #F68657;
+}
+	
