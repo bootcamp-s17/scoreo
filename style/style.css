@@ -1,40 +1,44 @@
+/* Light orange: #F6B352 */
+/* Dark orange: #F68657 */
+/* Charcoal gray: #383A3F */
+/* Black: #1F2124 */
+/* Light blue: #D4DFE6 */
+/* Medium blue: #8EC0E4 */
+
 body {
-	background-color: #383a3f; 
-	color:#5CAB7D;
+  background-color: #383A3F;
+  color: #F6B352;
 }
 
 a {
-	color: #7200da;
+  color: #F68657;
 }
 
 a:active {
-	color: #f8ecc9;
+ color: #F68657; 
 }
 
 a:visited {
-	color: #feee7d;
+  color: #D4DFE6;
 }
 
-a: hover {
-	color: #6a60a9;
+a:hover {
+  color: #D4DFE6;
+  background-color: #8EC0E4;
 }
 
 nav {
-	color: #f8ecc9;
+  color: #8EC0E4;
 }
 
-nav > a:visited {
-	color: #000000;
+nav > a {
+  text-decoration: none;
 }
 
-nav > a:first {
-	color: #AF4034;
-}
-
-nav > a:after {
-	content: "  |  ";
+nav > a::after { 
+  content: " | "; 
 }
 
 nav > a:first-child {
-	color: #AF4034;
+  color: #AF4034;
 }
