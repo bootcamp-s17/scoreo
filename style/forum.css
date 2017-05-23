@@ -1,0 +1,18 @@
+.thread img {
+    width: 60px;
+    vertical-align: -webkit-baseline-middle;
+    margin-right: 10px;
+}
+
+body {
+    margin: 20px;
+}
+
+.thread {
+    margin: 20px;
+}
+
+.thread span {
+    font-size: 2em;
+    padding-top: 1px;
+}
