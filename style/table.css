@@ -1,0 +1,12 @@
+table {
+	border-collapse: collapse;
+}
+table, th, tr, td {
+	border: 1px solid #F68657;
+	padding: 10px;
+}
+
+th {
+	background-color: #F68657;
+	color: #1F2124;
+}
