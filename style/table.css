@@ -21,3 +21,30 @@ td.score {
 tr:nth-child(even) {
 	background-color: #1F2124;
 }
+
+tr:hover {
+	background-color: #F68657;
+	color: #1F2124;
+}
+
+td a:after {
+	content: "\00a0 | \00a0";
+	text-decoration: none;
+	display: inline-block;
+
+}
+
+
+}
+tr a:hover {
+	background-color: #F68657;
+}
+
+tr a:last-child:after {
+	content: none;
+}
+
+}
+/*tr a {
+	text-decoration: none;
+}*/
