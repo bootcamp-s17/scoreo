@@ -1,0 +1,50 @@
+/* Light orange: #F6B352 */
+/* Dark orange: #F68657 */
+/* Charcoal gray: #383A3F */
+/* Black: #1F2124 */
+/* Light blue: #D4DFE6 */
+/* Medium blue: #8EC0E4 */
+
+
+a {
+  color: #1F2124;
+}
+
+a:active {
+ color: #1F2124; 
+}
+
+a:visited {
+  color: #1F2124;
+}
+
+
+
+
+nav {
+    color: #1F2124;
+    display: block;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5625em;
+    background: #F6B352;
+}
+
+nav > a {
+  text-decoration: none;
+  padding: 0px 15px;
+}
+
+nav a:after { 
+  content: " | "; 
+  padding-left: 25px;
+}
+
+nav > a:last-child:after {
+  content: none;
+}
+
+nav > a:first-child {
+  color: #1F2124;
+}
