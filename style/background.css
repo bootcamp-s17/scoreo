@@ -1,0 +1,23 @@
+@import 'normalize.css';
+
+body {
+	/*background-image: url("https://www.scottcountyiowa.com/sites/default/files/places/IMG_0954.jpg");*/
+	background-image: url("../images/discgolf.jpg");
+	background-size: cover;
+}
+
+#videos {
+	background-color: black;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#supplies{
+	text-align: center;
+}
+
+td {
+	text-align: center;
+	width: 33%;
+}
