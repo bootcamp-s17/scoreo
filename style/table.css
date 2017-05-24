@@ -35,7 +35,12 @@ td a:after {
 
 }
 
-
+.modal-content {
+/*    position: relative;
+    overflow-y: auto;*/
+    max-height: 95vh;
+    padding: 15px;
+}
 
 td a:hover {
 	background-color: #F68657;
