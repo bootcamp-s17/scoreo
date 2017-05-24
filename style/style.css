@@ -50,9 +50,33 @@ nav > a {
 }
 
 nav > a::after { 
+<<<<<<< HEAD
   content: " | "; 
+=======
+  content: " | ";
+>>>>>>> cde0de7e16802c242d5352779c33ef2096950296
 }
 
 nav > a:first-child {
   color: #AF4034;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
 }
