@@ -3,9 +3,13 @@
   <head>
     <title>Scoreo | The Most Awesome Disc Golf Scoring Website EVAH</title>
 
-    <link rel="stylesheet" href="./style/norm.css">
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/forum.css">
+    <!-- <link rel="stylesheet" href="./style/norm.css"> -->
+    <!-- <link rel="stylesheet" href="./style/style.css"> -->
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../style/forum.css">
 
   </head>
   <body>
@@ -18,61 +22,61 @@
         <a href="about.html">About</a>
       </nav>
     </header>
-    <div class="container">
-
-      <div id="forum">
-      <a href="newThread.html">New Thread</a>
-        <div class="thread">
-          <a href="profile.html"> <!-- links to profile   -->
-            <img src="./images/placeholder.png" alt="user profile img">
-
-            <span>John Smith</span>
-          </a>
-          
-          <a href="thread.html"><!-- links to particular thread   -->
-            <h3 >Thread Title</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          </a>
-          <ul>
-            <li><p>23 comments</p></li>
-            <li><p>most recent: 5/23/17, 2:13pm</p></li>
-            <li><a href="comment.html">comment</a> <!-- links to a place to make a comment   --></li>
-          </ul>
-        </div>
-        <div class="thread">
-          <a href="profile.html"> <!-- links to profile   -->
-            <img src="./images/placeholder.png" alt="user profile img">
-            <span>John Smith</span>
-          </a>
-          
-          <a href="thread.html"><!-- links to particular thread   -->
-            <h3 >Thread Title</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          </a>
-
-          <ul>
-            <li><p>23 comments</p></li>
-            <li><p>most recent: 5/23/17, 2:13pm</p></li>
-            <li><a href="comment.html">comment</a> <!-- links to a place to make a comment   --></li>
-          </ul>
-        </div>
-        <div class="thread">
-          <a href="profile.html"> <!-- links to profile   -->
-            <img src="./images/placeholder.png" alt="user profile img">
-            <span>John Smith</span>
-          </a>
-          
-          <a href="threa.html"><!-- links to particular thread   -->
-            <h3 >Thread Title</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          </a>
-          <ul>
-            <li><p>23 comments</p></li>
-            <li><p>most recent: 5/23/17, 2:13pm</p></li>
-            <li><a href="comment.html">comment</a> <!-- links to a place to make a comment   --></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+   <div id="main-container">
+     <div class="container thread">
+       <div class="col-md-8 col-md-push-2">
+         <div class="row">
+           <img src="../images/placeholder.png" alt="" class="col-xs-2">
+           <h3 class="col-xs-8">prof name</h3>
+         </div>
+         <div class="row">
+           <h3>thread title</h3>
+           <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+         </div>
+         <div class="row">
+           <ul class="list-inline">
+             <li>23 replies</li>
+             <li><a href="./comment.html">add comment</a></li>
+           </ul>
+         </div>
+       </div>
+     </div>
+     <div class="container thread">
+       <div class="col-md-8 col-md-push-2">
+         <div class="row">
+           <img src="../images/placeholder.png" alt="" class="col-xs-2">
+           <h3 class="col-xs-8">prof name</h3>
+         </div>
+         <div class="row">
+           <h3>thread title</h3>
+           <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+         </div>
+         <div class="row">
+           <ul class="list-inline">
+             <li>23 replies</li>
+             <li><a href="./comment.html">add comment</a></li>
+           </ul>
+         </div>
+       </div>
+     </div>
+     <div class="container thread">
+       <div class="col-md-8 col-md-push-2">
+         <div class="row">
+           <img src="../images/placeholder.png" alt="" class="col-xs-2">
+           <h3 class="col-xs-8">prof name</h3>
+         </div>
+         <div class="row">
+           <h3>thread title</h3>
+           <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+         </div>
+         <div class="row">
+           <ul class="list-inline">
+             <li>23 replies</li>
+             <li><a href="./comment.html">add comment</a></li>
+           </ul>
+         </div>
+       </div>
+     </div>
+   </div>
   </body>
 </html>
