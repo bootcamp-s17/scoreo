@@ -7,45 +7,36 @@
 
 .container {
     border-style: outset;
-    background-color: black;
+    background-color: #F6B352;
     border-radius: 50px;
-    padding: 15px;
+    padding: 20px;
     margin: 5% auto;
     width: 80%;
     text-align: center;
-    width: 60%;
-    height: 60%;
-    /* margin-left:auto; */
-    /* margin-right:auto; */
+    width: 50%;
+    height: 50%;
 }
-.container, h2, button{
-    display: inline-block;
-}
+
 header {
     overflow: clear;
     position: relative;
 
     }
-h2 {
+.month h2, button{
+    color: #D4DFE6;
     text-align: center;
     display: inline-block;
 }
 
-button:hover {
-
-}
-
-button:first-child {
-      left: 0;
-  }
 
 button {
     background-color: #F68657;
-    margin: 0 25px;
+    /* Positions buttons along x axis */
+    margin: 15px; 
 }
     
 table {
-    width: 100%;
-    height: 82%;
-
+    /* Adjusting size of calendar table */
+    width: 65%;
+    height: 70%;
 }
