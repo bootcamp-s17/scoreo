@@ -4,7 +4,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<title>My Scoreo Profile:</title>
 	</head>
-	<body class="container-fluid">
+	<body class="container">
 		<div>
 			<nav><br /><br />
  	 			<button class="btn btn-warning"><a href="../index.html">Home</a></button> 
@@ -19,73 +19,79 @@
 				<br /><img src="Scoreo_Logo.png" alt="Scoreo Logo" style="width:200px;height:148px;" class="img-thumbnail"> </img>
 			</div>
 			<div class="col-lg-2">
-				<h1>
-					<label>
-						<small><small>Username:</small></small>
-					</label> 
-					Disk-Thrower-4</h1>
+				<h1><small><small>Username: </small></small></h1>
+				<p><big>diskjunkie42</big></p>
 			</div>
 		</div>
 	
-		<div>
+		<div class="row-xs-4">
 			<small>
 				<p><br />Name: John Smith
 				<br />My next scheduled game: 7/7/17 
-				<br />Schedule an open game: LINK
-				<br />My League: The Disk Golfers
+				<br /><a href="../game_template.html">Schedule an open game</a>
+				<br /><a href="../my_league.html">My League: The Disk Golfers</a>
+				<br />Location: Kaiserslautern, Desutchland
 			</small>
 				</p>
-		<div>
+		</div>
 	
-		<div class="col-xs-4 pull-left" >
-			<label> How this week looks:</label>
-			<ul class="list-inline center-block" >
+		<div class="row-xs-4">
+			<h1>Ratings:</h1>
+			<p1>
+				<div class="col-xs-4" style="border: 1px solid black">
+					<label >How friendly other players rate you:</lable>
+					<br /><br /><p1></p1>
+				</div>
+				<div class="col-xs-4" style="border: 1px solid black">
+					<label>How good other players think you are:</label>
+					<br /><br /><p2></p2>
+				</div>
+				<div class="col-xs-4" style="border: 1px solid black">
+					<label>League Game rating: </label>
+					<br /><br /><p3></p3>
+			</p1>
+		</div>
+		<div class="col">
+			<button class='btn btn-warning'>Rate other players</button></div>
+		</div>
+
+		<div class="row-xs-4" >
+			<h1> How this week looks:</h1>
+			<p class="list-inline center-block" >
+				<div class="col-md-6"  style="border: 1px solid black">
+					<label > Sunday:</label>
+					<br /><p> No Games </p>
+				</div>
 				<div class="col-md-6"  style="border: 1px solid black">
 					<label > Monday:</label>
-					<li > No Games </li>
+					<br /><p > No Games </p> 
 				</div>
 				<div class="col-md-6"  style="border: 1px solid black">
 					<label > Tuesday:</label>
-					<li > No Games </li> 
+					<br /><p > League Game: The Disk Golfers | Time: 7:00am </p>
 				</div>
 				<div class="col-md-6"  style="border: 1px solid black">
 					<label > Wednesday:</label>
-					<li > League Game </li>
+					<br /><p > Game with Joe | Time: 4:30pm </p>
 				</div>
 				<div class="col-md-6"  style="border: 1px solid black">
 					<label > Thursday:</label>
-					<li > Game with Joe </li>
+					<br /><p > No Games </p>
 				</div>
 				<div class="col-md-6"  style="border: 1px solid black">
 					<label > Friday:</label>
-					<li > No Games </li>
-				</div>
-				<div class="col-md-6"  style="border: 1px solid black">
-					<label > Saturday:</label>
-					<li > No Games </li>
+					<br /><p> No Games </p>
 				</div>
 				<div class="col-md-12"  style="border: 1px solid black">
-					<label > Sunday:</label>
-					<li > No Games </li>
+					<label > Saturday:</label>
+					<br /><p> No Games </p>
 				</div>
-			</ul>
+				<div> 
+				<button class="btn btn-warning"><a href="../calandar.html"> Go to my calandar </a></button> 
+				</div>
+				
+			</p>
 		</div>
-		<div class="col-xs-5 row pull-right">
-		<p1>Ratings:</p1>
-		<ul>
-			<div /*class="col-xs-5"*/ style="border: 1px solid black">
-				<label>How friendly other players rate you:</lable>
-				<li></li>
-			</div>
-			<div /*class="col-xs-5"*/ style="border: 1px solid black">
-				<label>How good other players think you are:</label>
-				<li></li>
-			</div>
-			<div /class="col-xs-5"*/ style="border: 1px solid black">
-				<label>League game rating: </label>
-				<li></li>
-			</div>
-		</ul>
-		</div>
+		
 	</body>
 </html>
