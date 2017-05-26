@@ -5,6 +5,7 @@
 /* Light blue: #D4DFE6 */
 /* Medium blue: #8EC0E4 */
 
+
 /* For normalize.css there are two ways to use the file.
 
 download at necolas.github.com/normalize.css/ OR
@@ -18,6 +19,7 @@ link to it in the HTML file ABOVE your main style sheet
 import into main style sheet "@import 'normalize.css'"*/
 
 @import 'normalize.css';
+
 
 body {
   background-color: #383A3F;
@@ -51,7 +53,6 @@ nav > a {
 
 nav > a::after { 
   content: " | "; 
-
 }
 
 nav > a:first-child {
