@@ -1,0 +1,54 @@
+table {
+	border-collapse: collapse;
+	/*/border: 1px solid #F68657;*/
+	
+}
+/*th, tr, td {
+	border-bottom: 1px solid #F68657;
+	padding: 10px;
+}*/
+
+th {
+	background-color: #F68657;
+	color: #1F2124;
+	text-align: center;
+}
+
+td.score {
+	text-align: center;
+}
+
+tr:hover {
+	background-color: #F68657;
+	color: #1F2124;
+}
+
+td a:after {
+	content: "\00a0 | \00a0";
+	text-decoration: none;
+	display: inline-block;
+	color: #F68657;
+
+}
+
+
+.modal-content {
+/*    position: relative;
+    overflow-y: auto;*/
+    max-height: 95vh;
+    padding: 15px;
+
+}
+
+td a:hover {
+	background-color: #F68657;
+}
+
+td a:last-child:after {
+	content: none;
+}
+
+}
+/*tr a {
+	text-decoration: none;
+}*/
