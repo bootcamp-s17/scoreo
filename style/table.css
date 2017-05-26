@@ -1,0 +1,85 @@
+table {
+	border-collapse: collapse;
+<<<<<<< HEAD
+	/*/border: 1px solid #F68657;*/
+	
+}
+/*th, tr, td {
+	border-bottom: 1px solid #F68657;
+	padding: 10px;
+}*/
+=======
+	border: 1px solid #F68657;
+	
+}
+th, tr, td {
+	border-bottom: 1px solid #F68657;
+	padding: 10px;
+}
+>>>>>>> scoreboard
+
+th {
+	background-color: #F68657;
+	color: #1F2124;
+<<<<<<< HEAD
+	text-align: center;
+=======
+	text-align: middle;
+>>>>>>> scoreboard
+}
+
+td.score {
+	text-align: center;
+}
+
+<<<<<<< HEAD
+=======
+tr:nth-child(even) {
+	background-color: #1F2124;
+}
+
+>>>>>>> scoreboard
+tr:hover {
+	background-color: #F68657;
+	color: #1F2124;
+}
+
+td a:after {
+	content: "\00a0 | \00a0";
+	text-decoration: none;
+	display: inline-block;
+	color: #F68657;
+
+}
+
+<<<<<<< HEAD
+
+.modal-content {
+/*    position: relative;
+    overflow-y: auto;*/
+    max-height: 95vh;
+    padding: 15px;
+=======
+.table{
+
+	
+>>>>>>> scoreboard
+
+}
+
+td a:hover {
+	background-color: #F68657;
+}
+
+<<<<<<< HEAD
+td a:last-child:after {
+=======
+tr a:last-child:after {
+>>>>>>> scoreboard
+	content: none;
+}
+
+}
+/*tr a {
+	text-decoration: none;
+}*/
