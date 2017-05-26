@@ -1,70 +1,143 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Scoreo | The Most Awesome Disc Golf Scoring Website EVAH</title>
-  <link rel="stylesheet" href="../style/style.css" type="text/css" />
-  <link rel="stylesheet" href="../style/table.css" type="text/css" />
+    <title>Scoreo | The Most Awesome Disc Golf Scoring Website EVAH</title>
+    <link rel="stylesheet" href="../style/table.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../style/bootstrap/bootstrap.min.css" type- "text/css">
+    <link rel="stylesheet" href="../style/style.css" type="text/css" />
 </head>
+
 <body>
-
-<nav>
-  <a href="../index.html">Home</a>
-  <a href="../login.html">Login</a>
-  <a href="../profile.html">Profile</a>
-  <a href="../register.html">Register</a>
-  <a href="../about.html">About</a>
-</nav>
-
-<h1>Recent Games</h1>
-<h2>Click on the Game ID to view match details</h2>
-<p>Please be sure to rate your partners as a higher rating will make it easier to find matches, unless they were salty, then you should give em the thumbs down.</p>
-<div style="overflow-x:auto;">
-<table title="recent games">
-  <tr>
-    <th>Game ID</th>
-    <th>Date Played</th>
-    <th>Course</th>
-    <th>Score</th>
-    <th>Partners</th>
-  </tr>
-  <tr>
-    <td><a href="gamelog/9328.html">9328</a></td>
-    <td>4/25/2017</td>
-    <td><a href="../courses/veterans-park.html">Veterans Park</a></td>
-    <td class="score">-3</td>
-    <td><a href="../players/bobby.html">Bobby</a><a href="../players/jimmy.html">Jimmy</a><a href="../players/billy.html">Billy</a></td>
-  </tr>
-  <tr>
-    <td><a href="gamelog/9320.html">9320</a></td>
-    <td>4/23/2017</td>
-    <td><a href="../courses/shillito-park.html">Shillito Park</a></td>
-    <td class="score">-2</td>
-    <td><a href="../players/bobby.html">Bobby</a><a href="../players/jimmy.html">Jimmy</a></td>
-  </tr>
-  <tr>
-    <td><a href="gamelog/9315.html">9315</a></td>
-    <td>4/21/2017</td>
-    <td><a href="../courses/shillito-park.html">Shillito Park</a></td>
-    <td class="score">-4</td>
-    <td><a href="../players/bobby.html">Bobby</a><a href="../players/jimmy.html">Jimmy</a><a href="../players/billy.html">Billy</a></td>
-  </tr>
-  <tr>
-    <td><a href="gamelog/9312.html">9312</a></td>
-    <td>4/20/2017</td>
-    <td><a href="../courses/veterans-park.html">Veterans Park</a></td>
-    <td class="score">-3</td>
-    <td><a href="../players/bobby.html">Bobby</a><a href="../players/jimmy.html">Jimmy</a><a href="../players/billy.html">Billy</a></td>
-  </tr>
-  <tr>
-    <td><a href="gamelog/9306.html">9306</a></td>
-    <td>4/19/2017</td>
-    <td><a href="../courses/veterans-park.html">Veterans Park</a></td>
-    <td class="score">-1</td>
-    <td><a href="../players/bobby.html">Bobby</a><a href="../players/jimmy.html">Jimmy</a><a href="../players/billy.html">Billy</a></td>
-  </tr>
-  
-</table>
-</div>
-
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../login.html">Login</a>
+        <a href="../profile.html">Profile</a>
+        <a href="../register.html">Register</a>
+        <a href="../about.html">About</a>
+    </nav>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="page-header">
+                <h1>Recent Games</h1>
+                <h2>Click on the Game ID to view match details</h2>
+                <p>Please be sure to rate your partners as a higher rating will make it easier to find matches, unless they were salty, then you should give em the thumbs down.</p>
+            </div>
+        </div>
+        <div class="col-xs-0 col-sm-2 col-md-4 col-lg-4">
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+            <table class="table table-hover table-striped table-responsive ">
+                <tr>
+                    <th>Game ID</th>
+                    <th>Date Played</th>
+                    <th>Course</th>
+                    <th>Score</th>
+                    <th>Partners</th>
+                </tr>
+                <tr>
+                    <td><a href="gamelog/9328.html">9328</a></td>
+                    <td>4/25/2017</td>
+                    <td><a href="../courses/veterans-park.html">Veterans Park</a></td>
+                    <td class="score">-3</td>
+                    <td>
+                        <a data-toggle="modal" href="../user/profile.html" data-target="#myModal" data-remote="../user/profile.html">Bobby</a>
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <!-- <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Player Profile</h4>
+                            </div> -->
+                                    <div class="modal-body">
+                                        <!-- <p>Here is information about the players. This information is wonderfully useful.</p> -->
+                                        <iframe src="../user/profile.html" frameborder="0" height="700px" width="99.6%"></iframe>
+                                        <!-- <p>Some text in the modal.</p> -->
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a data-toggle="modal" href="../user/profile.html" data-target="#myModal" data-remote="../user/profile.html">Jimmy</a>
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <!-- <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Player Profile</h4>
+                            </div> -->
+                                    <div class="modal-body">
+                                        <!-- <p>Here is information about the players. This information is wonderfully useful.</p> -->
+                                        <iframe src="../user/profile.html" frameborder="0" height="700px" width="99.6%"></iframe>
+                                        <!-- <p>Some text in the modal.</p> -->
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a data-toggle="modal" href="../user/profile.html" data-target="#myModal" data-remote="../user/profile.html">Billy</a>
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <!-- <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Player Profile</h4>
+                            </div> -->
+                                    <div class="modal-body">
+                                        <!-- <p>Here is information about the players. This information is wonderfully useful.</p> -->
+                                        <iframe src="../user/profile.html" frameborder="0" height="700px" width="99.6%"></iframe>
+                                        <!-- <p>Some text in the modal.</p> -->
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="gamelog/9320.html">9320</a></td>
+                    <td>4/23/2017</td>
+                    <td><a href="../courses/shillito-park.html">Shillito Park</a></td>
+                    <td class="score">-2</td>
+                    <td><a href="../user/profile.html">Bobby</a><a href="../user/profile.html">Jimmy</a></td>
+                </tr>
+                <tr>
+                    <td><a href="gamelog/9315.html">9315</a></td>
+                    <td>4/21/2017</td>
+                    <td><a href="../courses/shillito-park.html">Shillito Park</a></td>
+                    <td class="score">-4</td>
+                    <td><a href="../user/profile.html">Bobby</a><a href="../user/profile.html">Jimmy</a><a href="../user/profile.html">Billy</a></td>
+                </tr>
+                <tr>
+                    <td><a href="gamelog/9312.html">9312</a></td>
+                    <td>4/20/2017</td>
+                    <td><a href="../courses/veterans-park.html">Veterans Park</a></td>
+                    <td class="score">-3</td>
+                    <td><a href="../user/profile.html">Bobby</a><a href="../user/profile.html">Jimmy</a><a href="../user/profile.html">Billy</a></td>
+                </tr>
+                <tr>
+                    <td><a href="gamelog/9306.html">9306</a></td>
+                    <td>4/19/2017</td>
+                    <td><a href="../courses/veterans-park.html">Veterans Park</a></td>
+                    <td class="score">-1</td>
+                    <td><a href="../user/profile.html">Bobby</a><a href="../user/profile.html">Jimmy</a><a href="../user/profile.html">Billy</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-xs-0 col-sm-2 col-md-4 col-lg-4">
+        </div>
+    </div>
 </body>
+
 </html>
