@@ -44,7 +44,7 @@ td a:hover {
 	background-color: #F68657;
 }
 
-tr a:last-child:after {
+td a:last-child:after {
 	content: none;
 }
 
