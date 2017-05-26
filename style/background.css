@@ -1,7 +1,7 @@
 @import 'normalize.css';
 
-body {
-	/*background-image: url("https://www.scottcountyiowa.com/sites/default/files/places/IMG_0954.jpg");*/
+/*body {
+	background-image: url("https://www.scottcountyiowa.com/sites/default/files/places/IMG_0954.jpg");
 	background-image: url("../images/discgolf.jpg");
 	background-size: cover;
 }
@@ -20,4 +20,8 @@ body {
 td {
 	text-align: center;
 	width: 33%;
+}*/
+
+.paddingVideos{
+	 margin:10px; padding:10px;
 }
