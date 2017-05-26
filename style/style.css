@@ -52,11 +52,9 @@ nav > a {
 }
 
 nav > a::after { 
-
-
-  content: " | ";
-
+  content: " | "; 
 }
+
 nav > a:first-child {
   color: #AF4034;
 }
