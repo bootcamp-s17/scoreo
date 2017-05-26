@@ -1,0 +1,70 @@
+/* Light orange: #F6B352 */
+/* Dark orange: #F68657 */
+/* Charcoal gray: #383A3F */
+/* Black: #1F2124 */
+/* Light blue: #D4DFE6 */
+/* Medium blue: #8EC0E4 */
+
+body {
+  background-color: #383A3F;
+  color: #F6B352;
+}
+h1{
+  font-family: font-family: 'Asul', sans-serif;
+  color: #F6B352;
+}
+/*Good for H2*/
+h2{
+  font-family: 'Patrick Hand SC', cursive;
+  color: #F6B352;
+}
+h3{
+  font-family: 'Judson', serif;
+  color: #F6B352;
+}
+h4{
+  font-family: 'Cinzel Decorative', cursive;
+  color: #F6B352;
+}
+/*Not bad just a little to big */
+p{
+  font-family: 'Carter One', cursive;
+  color: #F6B352;
+}
+/*To fat*/
+li{
+  font-family: 'Luckiest Guy', cursive;
+  color: #F6B352;
+}
+a {
+  color: #F68657;
+}
+
+a:active {
+ color: #F68657; 
+}
+
+a:visited {
+  color: #D4DFE6;
+}
+
+a:hover {
+  color: #D4DFE6;
+  background-color: #8EC0E4;
+}
+
+nav {
+  color: #8EC0E4;
+}
+
+nav > a {
+  text-decoration: none;
+}
+
+nav > a::after { 
+  content: " | "; 
+}
+
+nav > a:first-child {
+  color: #AF4034;
+}
