@@ -50,15 +50,8 @@ nav > a {
 }
 
 nav > a::after { 
-<<<<<<< HEAD
   content: " | "; 
-=======
-  content: " | ";
-<<<<<<< HEAD
->>>>>>> 0f9fe0a88e578899a4e3d10421bd38edd8c96b69
-=======
->>>>>>> cde0de7e16802c242d5352779c33ef2096950296
->>>>>>> scoreboard
+
 }
 
 nav > a:first-child {
