@@ -18,8 +18,8 @@
 		* for previous two we might be able to reuse
 3. Calendar
 	* index -- current month
-	* deatil of event displayed in a `modal`
-	* edit/enter -- display in `modal'
+	* detail of event displayed in a modal
+	* edit/enter -- display in modal
 		* What do we need in this calendar?
 			* date
 			* time of day (start/end)
